@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Apollo Music Player
+*by **Tony Boswell***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Forward
+I wanted to see if I could learn React Hooks with this project through a course I took from Reed Barger. The project was a simple music player,  that took either a YouTube or SoundCloud Link and created a list of songs, that could be added to a play queue. The Player was a lot more complex than I thought it would be, and added quite a few packages/libraries that I have never used before. While I don't think I'm quite there yet with a full understanding of hooks, I think i have been introduced to the basic concepts, which will help me to further develop my understanding of what Hooks do for React in some of my other projects.
 
-In the project directory, you can run:
+## How To Use
 
-### `npm start`
+Simply point your browser to https://shylmysten.github.io/apollo-music-share-app/
+or clone this repository: https://github.com/Shylmysten/apollo-music-share-app.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ - When the page finishes loading, the music player is ready to start accepting urls for songs
+ - Enter a YouTube or SoundCloud Url and click the Add button to add it to your list of songs on under the input
+ - To add the song to your player Queue, simply click the magenta disk icon in the song card you want to add to your queue
+ - To play a song, you can either click the play button on the sound card to select that song, or click the player's play button
+ - You can skip to the next or previous song in your queue by selecting the next or previous buttons
+ - The player also allows you to skip ahead in the song by dragging the slider anywhere in the song you want it to play from
+ - When the Current song playing has completed, the player will automatically play the next song in your queue
+ - The Songs currently populating the list are being pulled in via Hasura
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## TODOS:
 
-### `npm test`
+ - add a mutation that would allow me to remove items from the database so the player starts empty
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Attributions
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Coursework and Code from Reed Barger's React Bootcamp https://reactbootcamp.com/

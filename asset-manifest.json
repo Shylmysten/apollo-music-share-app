@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/apollo-music-share-app/static/js/main.bf633106.chunk.js",
-    "main.js.map": "/apollo-music-share-app/static/js/main.bf633106.chunk.js.map",
+    "main.js": "/apollo-music-share-app/static/js/main.3c063ca0.chunk.js",
+    "main.js.map": "/apollo-music-share-app/static/js/main.3c063ca0.chunk.js.map",
     "runtime-main.js": "/apollo-music-share-app/static/js/runtime-main.17efb069.js",
     "runtime-main.js.map": "/apollo-music-share-app/static/js/runtime-main.17efb069.js.map",
-    "static/js/2.91c207f9.chunk.js": "/apollo-music-share-app/static/js/2.91c207f9.chunk.js",
-    "static/js/2.91c207f9.chunk.js.map": "/apollo-music-share-app/static/js/2.91c207f9.chunk.js.map",
+    "static/js/2.0c39747b.chunk.js": "/apollo-music-share-app/static/js/2.0c39747b.chunk.js",
+    "static/js/2.0c39747b.chunk.js.map": "/apollo-music-share-app/static/js/2.0c39747b.chunk.js.map",
     "index.html": "/apollo-music-share-app/index.html",
-    "static/js/2.91c207f9.chunk.js.LICENSE.txt": "/apollo-music-share-app/static/js/2.91c207f9.chunk.js.LICENSE.txt"
+    "static/js/2.0c39747b.chunk.js.LICENSE.txt": "/apollo-music-share-app/static/js/2.0c39747b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.17efb069.js",
-    "static/js/2.91c207f9.chunk.js",
-    "static/js/main.bf633106.chunk.js"
+    "static/js/2.0c39747b.chunk.js",
+    "static/js/main.3c063ca0.chunk.js"
   ]
 }
